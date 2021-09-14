@@ -137,3 +137,20 @@ input[type="text"] {
     object-fit: contain;
   }
 }
+
+.pagination {
+  display: flex;
+  margin: 50px;
+  padding: 10px;
+  justify-content: space-evenly;
+  background-color: rgb(13, 14, 13);
+  width: auto;
+}
+
+pagination a {
+  color: rgb(231, 224, 224);
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin: 0;
+}
