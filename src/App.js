@@ -9,7 +9,7 @@ function App() {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [query, setQuery] = useState("");
-  const [postsPerPage, setPostsPerPage] = useState(12);
+  const postsPerPage = 12;
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
